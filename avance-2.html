@@ -6,12 +6,35 @@
 <body>
 <h2>universidad privada cumbre</h2
 <h1>diego emilio gonzales mejia</h1>
+
 <button onclick="myprimerAlgoritmo()">
 juan es mayor de edad?
 </button>
 
+<button onclick="mysegundoAlgoritmo()">
+juan es de la tercera edad?
+</button>
+
 <script>
-funtion myprimeralgoritmo(){
+function myprimerAlgoritmo(){
+      var edad
+      edad = prompt("ingrese su edad:", "18");
+      if(edad >=18){
+             alert("juan es MAYOR de edad");
+      }else{
+             alert("juan es MENOR de edad");
+      }      
+      
+
+}
+
+function mysegundoalgoritmo(){
+       var edad
+       edad = prompt("ingrese su edad:", "84");
+       if(edad >=60){
+              alert("juan es de la tercera edad");
+       }else{
+              alert("juan no es de la tercera edad");
 
 }
 </script>
